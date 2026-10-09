@@ -1,0 +1,13 @@
+{
+  "_comment": "麦当劳中国 MCP Server 脱敏配置示例。请将 YOUR_MCP_TOKEN 替换为你在 https://open.mcd.cn/mcp 申请的 Token，或使用环境变量注入。此文件不含任何真实凭证。",
+  "_doc": "官方接入说明：https://github.com/M-China/mcd-mcp-server",
+  "mcpServers": {
+    "mcd-mcp": {
+      "type": "streamablehttp",
+      "url": "https://mcp.mcd.cn",
+      "headers": {
+        "Authorization": "Bearer YOUR_MCP_TOKEN"
+      }
+    }
+  }
+}
