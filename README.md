@@ -151,6 +151,8 @@ mcd-saving-expert/
 ├── MCP_INTEGRATION.md            # MCP 能力说明与调用流程
 ├── mcp-config.example.json       # 脱敏配置示例
 ├── workbuddy.md                  # WorkBuddy 开发对话上下文
+├── docs/
+│   └── mcp-proof.jpg             # 真实调用麦当劳 MCP 的存证截图
 └── references/
     ├── 省钱方法论总纲.md          # 核心判断框架
     ├── 券叠加与失效预警.md        # 券的正确使用顺序
@@ -167,6 +169,12 @@ mcd-saving-expert/
 2. **不确定就说不确定**：查询失败如实告知，不给假数字
 3. **信息时效性**：券和价格实时变化，缓存结果需标注查询时间
 4. **守好边界**：不构成医疗/营养建议，消费决策权在用户
+
+---
+
+## 真实使用存证
+
+本项目已**真实调用麦当劳官方 MCP** 完成「附近门店查询 + 可领券查询」，截图见 [docs/mcp-proof.jpg](docs/mcp-proof.jpg)（海口市琼山区附近 5 家门店及可领券信息，由 `mcd-mcp` 实时返回，非编造）。作为报名参赛的"真实使用"凭证。
 
 ---
 
