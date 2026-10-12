@@ -2,6 +2,22 @@
 
 > 一个基于麦当劳官方 MCP 的 AI 省钱助手 —— 把「凭经验教你判断便宜」升级为「用官方实时数据替你算账」。
 
+<details open>
+<summary><b>🌐 English summary</b> (click to collapse / <a href="README_EN.md">full English README</a>)</summary>
+
+An AI money-saving assistant built on McDonald's China **official MCP**.
+Prices, coupons and orders are computed from **live official data** — not guessed.
+
+- **Claim coupons** in one shot (`auto-bind-coupons`)
+- **Compute the real bill** — item price, discounts, delivery fee, payable total (`calculate-price`)
+- **Decide** pickup vs. delivery, combo vs. single, with real nutrition data
+
+**Other assistants give you "advice". McdSaving gives you "the finished bill".**
+
+Works with WorkBuddy + `mcd-mcp` connector. See [README_EN.md](README_EN.md) for installation and usage.
+
+</details>
+
 ---
 
 ## 介绍
@@ -146,7 +162,8 @@
 ```
 mcd-saving-expert/
 ├── SKILL.md                      # Skill 主入口
-├── README.md                     # 项目介绍（本文件）
+├── README.md                     # 项目介绍（中文，本文件）
+├── README_EN.md                  # English README
 ├── CONTEST_DECLARATION.md# 参赛声明（官方原文）
 ├── MCP_INTEGRATION.md            # MCP 能力说明与调用流程
 ├── mcp-config.example.json       # 脱敏配置示例
